@@ -15,6 +15,7 @@ import Profile2 from './pages/Profile2';
 import Settings from './pages/Settings';
 import InputTest from './pages/InputTest';
 import About from './pages/About';
+import Orientacao from './pages/Orientacao';
 
 const StackNavigator = createStackNavigator(
   {
@@ -23,6 +24,7 @@ const StackNavigator = createStackNavigator(
     Profile2,
     Settings,
     InputTest,
+    Orientacao,
   },
   {
     initialRouteName: 'Home',

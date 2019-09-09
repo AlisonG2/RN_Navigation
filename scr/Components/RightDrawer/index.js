@@ -41,6 +41,18 @@ export default class RightDrawer extends Component {
             onPress={this.navigateToScreen('InputTest')}>
             <Text>{'Teste de input'}</Text>
           </TouchableOpacity>
+          <TouchableOpacity
+            style={{
+              justifyContent: 'center',
+              alignItems: 'center',
+              height: 40,
+              marginBottom: 10,
+              borderWidth: 1,
+              borderColor: '#0FF',
+            }}
+            onPress={this.navigateToScreen('Orientacao')}>
+            <Text>{'Teste de orientacao'}</Text>
+          </TouchableOpacity>
         </View>
       </ScrollView>
     );
